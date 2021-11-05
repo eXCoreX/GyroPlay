@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0AAAE252735DAFD0088FA7A /* GyroPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE242735DAFD0088FA7A /* GyroPlayApp.swift */; };
+		F0AAAE272735DAFD0088FA7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE262735DAFD0088FA7A /* ContentView.swift */; };
+		F0AAAE292735DAFE0088FA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AAAE282735DAFE0088FA7A /* Assets.xcassets */; };
+		F0AAAE2C2735DAFE0088FA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AAAE2B2735DAFE0088FA7A /* Preview Assets.xcassets */; };
+		F0AAAE362735DAFF0088FA7A /* GyroPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE352735DAFF0088FA7A /* GyroPlayTests.swift */; };
+		F0AAAE402735DAFF0088FA7A /* GyroPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE3F2735DAFF0088FA7A /* GyroPlayUITests.swift */; };
+		F0AAAE422735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE412735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0AAAE322735DAFF0088FA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0AAAE192735DAFD0088FA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AAAE202735DAFD0088FA7A;
+			remoteInfo = GyroPlay;
+		};
+		F0AAAE3C2735DAFF0088FA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0AAAE192735DAFD0088FA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AAAE202735DAFD0088FA7A;
+			remoteInfo = GyroPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0AAAE212735DAFD0088FA7A /* GyroPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AAAE242735DAFD0088FA7A /* GyroPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayApp.swift; sourceTree = "<group>"; };
+		F0AAAE262735DAFD0088FA7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0AAAE282735DAFE0088FA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0AAAE2B2735DAFE0088FA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0AAAE312735DAFF0088FA7A /* GyroPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AAAE352735DAFF0088FA7A /* GyroPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayTests.swift; sourceTree = "<group>"; };
+		F0AAAE3B2735DAFF0088FA7A /* GyroPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AAAE3F2735DAFF0088FA7A /* GyroPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayUITests.swift; sourceTree = "<group>"; };
+		F0AAAE412735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0AAAE1E2735DAFD0088FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AAAE2E2735DAFF0088FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AAAE382735DAFF0088FA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0AAAE182735DAFD0088FA7A = {
+			isa = PBXGroup;
+			children = (
+				F0AAAE232735DAFD0088FA7A /* GyroPlay */,
+				F0AAAE342735DAFF0088FA7A /* GyroPlayTests */,
+				F0AAAE3E2735DAFF0088FA7A /* GyroPlayUITests */,
+				F0AAAE222735DAFD0088FA7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0AAAE222735DAFD0088FA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0AAAE212735DAFD0088FA7A /* GyroPlay.app */,
+				F0AAAE312735DAFF0088FA7A /* GyroPlayTests.xctest */,
+				F0AAAE3B2735DAFF0088FA7A /* GyroPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0AAAE232735DAFD0088FA7A /* GyroPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F0AAAE242735DAFD0088FA7A /* GyroPlayApp.swift */,
+				F0AAAE262735DAFD0088FA7A /* ContentView.swift */,
+				F0AAAE282735DAFE0088FA7A /* Assets.xcassets */,
+				F0AAAE2A2735DAFE0088FA7A /* Preview Content */,
+			);
+			path = GyroPlay;
+			sourceTree = "<group>";
+		};
+		F0AAAE2A2735DAFE0088FA7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0AAAE2B2735DAFE0088FA7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0AAAE342735DAFF0088FA7A /* GyroPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AAAE352735DAFF0088FA7A /* GyroPlayTests.swift */,
+			);
+			path = GyroPlayTests;
+			sourceTree = "<group>";
+		};
+		F0AAAE3E2735DAFF0088FA7A /* GyroPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0AAAE3F2735DAFF0088FA7A /* GyroPlayUITests.swift */,
+				F0AAAE412735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift */,
+			);
+			path = GyroPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0AAAE202735DAFD0088FA7A /* GyroPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AAAE452735DAFF0088FA7A /* Build configuration list for PBXNativeTarget "GyroPlay" */;
+			buildPhases = (
+				F0AAAE1D2735DAFD0088FA7A /* Sources */,
+				F0AAAE1E2735DAFD0088FA7A /* Frameworks */,
+				F0AAAE1F2735DAFD0088FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyroPlay;
+			productName = GyroPlay;
+			productReference = F0AAAE212735DAFD0088FA7A /* GyroPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0AAAE302735DAFF0088FA7A /* GyroPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AAAE482735DAFF0088FA7A /* Build configuration list for PBXNativeTarget "GyroPlayTests" */;
+			buildPhases = (
+				F0AAAE2D2735DAFF0088FA7A /* Sources */,
+				F0AAAE2E2735DAFF0088FA7A /* Frameworks */,
+				F0AAAE2F2735DAFF0088FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AAAE332735DAFF0088FA7A /* PBXTargetDependency */,
+			);
+			name = GyroPlayTests;
+			productName = GyroPlayTests;
+			productReference = F0AAAE312735DAFF0088FA7A /* GyroPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0AAAE3A2735DAFF0088FA7A /* GyroPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AAAE4B2735DAFF0088FA7A /* Build configuration list for PBXNativeTarget "GyroPlayUITests" */;
+			buildPhases = (
+				F0AAAE372735DAFF0088FA7A /* Sources */,
+				F0AAAE382735DAFF0088FA7A /* Frameworks */,
+				F0AAAE392735DAFF0088FA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AAAE3D2735DAFF0088FA7A /* PBXTargetDependency */,
+			);
+			name = GyroPlayUITests;
+			productName = GyroPlayUITests;
+			productReference = F0AAAE3B2735DAFF0088FA7A /* GyroPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0AAAE192735DAFD0088FA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F0AAAE202735DAFD0088FA7A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F0AAAE302735DAFF0088FA7A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F0AAAE202735DAFD0088FA7A;
+					};
+					F0AAAE3A2735DAFF0088FA7A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F0AAAE202735DAFD0088FA7A;
+					};
+				};
+			};
+			buildConfigurationList = F0AAAE1C2735DAFD0088FA7A /* Build configuration list for PBXProject "GyroPlay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0AAAE182735DAFD0088FA7A;
+			productRefGroup = F0AAAE222735DAFD0088FA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0AAAE202735DAFD0088FA7A /* GyroPlay */,
+				F0AAAE302735DAFF0088FA7A /* GyroPlayTests */,
+				F0AAAE3A2735DAFF0088FA7A /* GyroPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0AAAE1F2735DAFD0088FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AAAE2C2735DAFE0088FA7A /* Preview Assets.xcassets in Resources */,
+				F0AAAE292735DAFE0088FA7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AAAE2F2735DAFF0088FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AAAE392735DAFF0088FA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0AAAE1D2735DAFD0088FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AAAE272735DAFD0088FA7A /* ContentView.swift in Sources */,
+				F0AAAE252735DAFD0088FA7A /* GyroPlayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AAAE2D2735DAFF0088FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AAAE362735DAFF0088FA7A /* GyroPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AAAE372735DAFF0088FA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AAAE422735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift in Sources */,
+				F0AAAE402735DAFF0088FA7A /* GyroPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0AAAE332735DAFF0088FA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AAAE202735DAFD0088FA7A /* GyroPlay */;
+			targetProxy = F0AAAE322735DAFF0088FA7A /* PBXContainerItemProxy */;
+		};
+		F0AAAE3D2735DAFF0088FA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AAAE202735DAFD0088FA7A /* GyroPlay */;
+			targetProxy = F0AAAE3C2735DAFF0088FA7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0AAAE432735DAFF0088FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0AAAE442735DAFF0088FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0AAAE462735DAFF0088FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GyroPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = TYJQ3Y6W6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.excore.GyroPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0AAAE472735DAFF0088FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GyroPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = TYJQ3Y6W6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.excore.GyroPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0AAAE492735DAFF0088FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYJQ3Y6W6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.excore.GyroPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyroPlay.app/GyroPlay";
+			};
+			name = Debug;
+		};
+		F0AAAE4A2735DAFF0088FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYJQ3Y6W6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.excore.GyroPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyroPlay.app/GyroPlay";
+			};
+			name = Release;
+		};
+		F0AAAE4C2735DAFF0088FA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYJQ3Y6W6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.excore.GyroPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GyroPlay;
+			};
+			name = Debug;
+		};
+		F0AAAE4D2735DAFF0088FA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYJQ3Y6W6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.excore.GyroPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GyroPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0AAAE1C2735DAFD0088FA7A /* Build configuration list for PBXProject "GyroPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AAAE432735DAFF0088FA7A /* Debug */,
+				F0AAAE442735DAFF0088FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AAAE452735DAFF0088FA7A /* Build configuration list for PBXNativeTarget "GyroPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AAAE462735DAFF0088FA7A /* Debug */,
+				F0AAAE472735DAFF0088FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AAAE482735DAFF0088FA7A /* Build configuration list for PBXNativeTarget "GyroPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AAAE492735DAFF0088FA7A /* Debug */,
+				F0AAAE4A2735DAFF0088FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0AAAE4B2735DAFF0088FA7A /* Build configuration list for PBXNativeTarget "GyroPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AAAE4C2735DAFF0088FA7A /* Debug */,
+				F0AAAE4D2735DAFF0088FA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0AAAE192735DAFD0088FA7A /* Project object */;
+}
