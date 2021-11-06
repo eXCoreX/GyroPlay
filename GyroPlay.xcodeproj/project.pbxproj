@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F0AAAE252735DAFD0088FA7A /* GyroPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE242735DAFD0088FA7A /* GyroPlayApp.swift */; };
-		F0AAAE272735DAFD0088FA7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE262735DAFD0088FA7A /* ContentView.swift */; };
 		F0AAAE292735DAFE0088FA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AAAE282735DAFE0088FA7A /* Assets.xcassets */; };
 		F0AAAE2C2735DAFE0088FA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AAAE2B2735DAFE0088FA7A /* Preview Assets.xcassets */; };
 		F0AAAE362735DAFF0088FA7A /* GyroPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE352735DAFF0088FA7A /* GyroPlayTests.swift */; };
 		F0AAAE402735DAFF0088FA7A /* GyroPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE3F2735DAFF0088FA7A /* GyroPlayUITests.swift */; };
 		F0AAAE422735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE412735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift */; };
+		F0AAAE532735DDE00088FA7A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE522735DDE00088FA7A /* CardView.swift */; };
+		F0AAAE59273614850088FA7A /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = F0AAAE58273614850088FA7A /* SFSafeSymbols */; };
+		F0AAAE5B2736BA9C0088FA7A /* CMQuaternion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE5A2736BA9C0088FA7A /* CMQuaternion+Extension.swift */; };
+		F0AAAE5D2736BAC80088FA7A /* GyroStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AAAE5C2736BAC80088FA7A /* GyroStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F0AAAE212735DAFD0088FA7A /* GyroPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AAAE242735DAFD0088FA7A /* GyroPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayApp.swift; sourceTree = "<group>"; };
-		F0AAAE262735DAFD0088FA7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0AAAE282735DAFE0088FA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0AAAE2B2735DAFE0088FA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0AAAE312735DAFF0088FA7A /* GyroPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,9 @@
 		F0AAAE3B2735DAFF0088FA7A /* GyroPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AAAE3F2735DAFF0088FA7A /* GyroPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayUITests.swift; sourceTree = "<group>"; };
 		F0AAAE412735DAFF0088FA7A /* GyroPlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroPlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0AAAE522735DDE00088FA7A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F0AAAE5A2736BA9C0088FA7A /* CMQuaternion+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMQuaternion+Extension.swift"; sourceTree = "<group>"; };
+		F0AAAE5C2736BAC80088FA7A /* GyroStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AAAE59273614850088FA7A /* SFSafeSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +100,10 @@
 		F0AAAE232735DAFD0088FA7A /* GyroPlay */ = {
 			isa = PBXGroup;
 			children = (
+				F0AAAE522735DDE00088FA7A /* CardView.swift */,
+				F0AAAE5A2736BA9C0088FA7A /* CMQuaternion+Extension.swift */,
 				F0AAAE242735DAFD0088FA7A /* GyroPlayApp.swift */,
-				F0AAAE262735DAFD0088FA7A /* ContentView.swift */,
+				F0AAAE5C2736BAC80088FA7A /* GyroStore.swift */,
 				F0AAAE282735DAFE0088FA7A /* Assets.xcassets */,
 				F0AAAE2A2735DAFE0088FA7A /* Preview Content */,
 			);
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = GyroPlay;
+			packageProductDependencies = (
+				F0AAAE58273614850088FA7A /* SFSafeSymbols */,
+			);
 			productName = GyroPlay;
 			productReference = F0AAAE212735DAFD0088FA7A /* GyroPlay.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = F0AAAE182735DAFD0088FA7A;
+			packageReferences = (
+				F0AAAE57273614850088FA7A /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
 			productRefGroup = F0AAAE222735DAFD0088FA7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AAAE272735DAFD0088FA7A /* ContentView.swift in Sources */,
+				F0AAAE5D2736BAC80088FA7A /* GyroStore.swift in Sources */,
+				F0AAAE532735DDE00088FA7A /* CardView.swift in Sources */,
 				F0AAAE252735DAFD0088FA7A /* GyroPlayApp.swift in Sources */,
+				F0AAAE5B2736BA9C0088FA7A /* CMQuaternion+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -605,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0AAAE57273614850088FA7A /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/piknotech/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0AAAE58273614850088FA7A /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0AAAE57273614850088FA7A /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0AAAE192735DAFD0088FA7A /* Project object */;
 }

@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import CoreMotion
 
 @main
 struct GyroPlayApp: App {
+    @StateObject private var gyroStore = GyroStore()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardView()
+                .environmentObject(gyroStore)
         }
     }
 }
